@@ -1,0 +1,19 @@
+{
+  "name": "Auto Close",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "history", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "images/16.png"
+    }
+  },
+  "icons": {
+    "16": "images/16.png"
+  }
+}
